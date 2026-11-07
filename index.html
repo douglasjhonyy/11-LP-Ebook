@@ -1,90 +1,118 @@
 <!doctype html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <script src="main.js" defer></script>
-    <title>Venda Ebook</title>
-  </head>
-  <body>
 
-    <!-- nav -->
-    <header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="main.js" defer></script>
+  <title>Venda Ebook</title>
+</head>
+
+<body>
+
+  <!-- nav -->
+  <header>
+    <div class="wrap">
+      <strong>Do Zero ao Primeiro Site</strong><a class="btn btn-main" href="#preco"> Quero o Ebook</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main>
+    <section class="wrap hero">
+      <div>
+        <h1>
+          Publique seu primeiro site em 30 dias, mesmo começando do zero
+        </h1>
+        <p class="sub">
+          Um guia prático de HTML, CSS e JavaScript com projetos para fazer
+          junto, explicados passo a passo.
+        </p>
+        <div class="cta-row">
+          <a class="btn btn-main" href="#preco">Comprar Agora</a>
+          <a class="btn btn-line" href="#amostra">Baixar Capítulo grátis</a>
+        </div>
+        <p class="small">Acesso imediato · PDF + EPUB · Garantia de 7 dias</p>
+      </div>
+      <div class="stage">
+        <div class="book" id="book">
+          <div class="cover">
+            <i></i>
+            <h3>Do Zero ao Primeiro Site</h3>
+            <span>Programação web para iniciantes</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="stats">
       <div class="wrap">
-        <strong>Do Zero ao Primeiro Site</strong
-        ><a class="btn btn-main" href="#preco"> Quero o Ebook</a>
+        <div><b>180</b>páginas</div>
+        <div><b>12</b>projetos práticos</div>
+        <div><b>3</b>linguagens</div>
+        <div><b>4,8</b>avaliação dos leitores</div>
       </div>
-    </header>
-
-    <!-- Hero -->
-    <main>
-      <section class="wrap hero">
-        <div>
-          <h1>
-            Publique seu primeiro site em 30 dias, mesmo começando do zero
-          </h1>
-          <p class="sub">
-            Um guia prático de HTML, CSS e JavaScript com projetos para fazer
-            junto, explicados passo a passo.
-          </p>
-          <div class="cta-row">
-            <a class="btn btn-main" href="#preco">Comprar Agora</a>
-            <a class="btn btn-line" href="#amostra">Baixar Capítulo grátis</a>
-          </div>
-          <p class="small">Acesso imediato · PDF + EPUB · Garantia de 7 dias</p>
-        </div>
-        <div class="stage">
-          <div class="book" id="book">
-            <div class="cover">
-              <i></i>
-              <h3>Do Zero ao Primeiro Site</h3>
-              <span>Programação web para iniciantes</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <div class="stats">
-        <div class="wrap">
-          <div><b>180</b>páginas</div>
-          <div><b>12</b>projetos práticos</div>
-          <div><b>3</b>linguagens</div>
-          <div><b>4,8</b>avaliação dos leitores</div>
-        </div>
-      </div>
+    </div>
 
     <!-- Conteúdo da seção -->
-      <section class="wrap">
-        <h2 class="reveal">O que você vai conseguir fazer</h2>
-        <div class="grid3">
-          <div class="card reveal">
-            <h3>Entender a estrutura</h3>
-            <p>
-              Monte páginas organizadas com HTML semântico, sem decorar tags
-              soltas.
-            </p>
-          </div>
-          <div class="card reveal">
-            <h3>Deixar tudo bonito</h3>
-            <p>
-              Use CSS, Flexbox e Grid para criar layouts que funcionam no
-              celular.
-            </p>
-          </div>
-          <div class="card reveal">
-            <h3>Dar vida à página</h3>
-            <p>
-              Adicione interações com JavaScript e publique o resultado na
-              internet.
-            </p>
-          </div>
+    <section class="wrap">
+      <h2 class="reveal">O que você vai conseguir fazer</h2>
+      <div class="grid3">
+        <div class="card reveal">
+          <h3>Entender a estrutura</h3>
+          <p>
+            Monte páginas organizadas com HTML semântico, sem decorar tags
+            soltas.
+          </p>
         </div>
-      </section>
+        <div class="card reveal">
+          <h3>Deixar tudo bonito</h3>
+          <p>
+            Use CSS, Flexbox e Grid para criar layouts que funcionam no
+            celular.
+          </p>
+        </div>
+        <div class="card reveal">
+          <h3>Dar vida à página</h3>
+          <p>
+            Adicione interações com JavaScript e publique o resultado na
+            internet.
+          </p>
+        </div>
+      </div>
+    </section>
 
-      <!-- Capitulos do Ebook -->
-      
+    <!-- Capitulos do Ebook -->
+    <section class="wrap">
+      <h2 class="reveal">O que tem dentro</h2>
+      <div class="reveal">
+        <details open>
+          <summary>Capítulo 1: Como a web funciona</summary>
+          <p>Navegador, servidor, domínio e o caminho de uma página até a tela.</p>
+        </details>
+        <details>
+          <summary>Capítulo 2: HTML na prática</summary>
+          <p>Títulos, listas, links, imagens e formulários, com um projeto de currículo online.</p>
+        </details>
+        <details>
+          <summary>Capítulo 3: CSS do básico ao responsivo</summary>
+          <p>Cores, tipografia, Flexbox, Grid e media queries.</p>
+        </details>
+        <details>
+          <summary>Capítulo 4: JavaScript para iniciantes</summary>
+          <p>Variáveis, funções, eventos e manipulação do DOM.</p>
+        </details>
+        <details>
+          <summary>Capítulo 5: Publicando seu site</summary>
+          <p>Do arquivo no computador ao link que você envia para qualquer pessoa.</p>
+        </details>
+      </div>
+    </section>
 
-    </main>
-  </body>
+    <!--  -->
+
+  </main>
+</body>
+
 </html>
