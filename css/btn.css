@@ -1,0 +1,35 @@
+.btn {
+    color: var(--pine);
+    background: #C9953B;
+    display: inline-block;
+    padding: 16px 28px;
+    border-radius: 10px;
+    font-weight: 700;
+    text-decoration: none;
+    border: 2px solid transparent;
+    cursor: pointer;
+    font-size: 1.3rem;
+    font-family: inherit;
+    transition: transform .15s;
+
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+.btn:focus-visible {
+    outline: 3px solid #C9953B;
+    outline-offset: 3px;
+}
+
+.btn-main {
+    background: #C9953B;
+    outline-offset: 3px;
+}
+
+.btn-line {
+    border-color: var(--moss);
+    color: var(--moss);
+    background: transparent;
+}
