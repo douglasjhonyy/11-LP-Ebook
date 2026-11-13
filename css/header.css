@@ -14,11 +14,13 @@ header .wrap{
 }
 
 header strong{
-    font-family: "Young Serif", Georgia, serif;
+    font-family: var(--serif);
     font-weight: 400;
     font-size: 24px;
 }
 
 header a.btn{
     padding: 9px 18px;
+    font-weight:500;
+    font-size: 18px;
 }

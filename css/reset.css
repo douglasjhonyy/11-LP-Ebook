@@ -1,4 +1,4 @@
-root {
+:root {
     --bg: #F3F5F1;
     --surface: #FFFFFF;
     --ink: #1E2B24;
@@ -85,3 +85,4 @@ p {
 section {
     padding: 84px 0
 }
+
