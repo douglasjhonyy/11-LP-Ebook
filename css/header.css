@@ -14,8 +14,9 @@ header .wrap{
 }
 
 header strong{
-    font-family: var(--serif);
+    font-family: "Young Serif", Georgia, serif;
     font-weight: 400;
+    font-size: 24px;
 }
 
 header a.btn{
