@@ -1,0 +1,49 @@
+/* PASSO 6: faixa de números e cards */
+
+.stats {
+    background: var(--pine);
+    color: #f3f5f1;
+    padding: 34px 0;
+}
+
+.stats .wrap {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+
+.stats b {
+    display: block;
+    font: 400 2rem var(--serif);
+    
+}
+
+.grid3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px
+    
+}
+
+.card{
+    background: var(--surface);
+    border:1px solid var(--line);
+    border-radius: 14px;
+    padding: 26px;
+}
+
+.card h3{
+    font-size: 1.12rem;
+}
+
+.card p{
+    color: var(--muted);
+    margin: 0;
+}
+
+.wrap .reveal{
+    padding-top: 50px;
+}
