@@ -1,0 +1,83 @@
+.hero {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 48px;
+    align-items: center;
+    padding-top: 64px;
+}
+
+.hero .sub {
+    font-size: 1.15rem;
+    color: var(--muted);
+}
+
+.cta-row {
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+    margin: 26px 0 14px;
+}
+
+.small {
+    font-size: .9rem;
+    color: var(--muted);
+}
+
+.stage {
+    perspective: 1100px;
+    display: grid;
+    place-items: center;
+    min-height: 380px;
+}
+
+.book {
+    --ry: -28px;
+    width: 230px;
+    height: 320px;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: rotateY(var(--ry)) rotateX(6deg);
+}
+
+.cover {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(160deg, var(--moss), var(--pine));
+    color: #f3f5f1;
+    border-radius: 4px 10px 10px 4px;
+    padding: 28px 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 12px 18px 40px rgba(20, 30, 24, .35);
+}
+
+.cover h3 {
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+.cover span {
+    font-size: .85rem;
+    opacity: .85;
+}
+
+.cover i {
+    display: block;
+    width: 44px;
+    height: 4px;
+    background: var(--honey);
+    border-radius: 2px;
+}
+
+.book::before {
+    content: "";
+    position: absolute;
+    left: -14px;
+    top: 0;
+    width: 14px;
+    height: 100%;
+    background: var(--pine);
+    transform-origin: right;
+    transform: rotateY(-90deg)
+}
