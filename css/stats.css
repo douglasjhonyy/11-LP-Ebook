@@ -12,38 +12,64 @@
     gap: 20px;
     flex-wrap: wrap;
     text-align: center;
-    
+
 }
 
 .stats b {
     display: block;
     font: 400 2rem var(--serif);
-    
+
 }
 
 .grid3 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px
-    
 }
 
-.card{
+.card {
     background: var(--surface);
-    border:1px solid var(--line);
+    border: 1px solid var(--line);
     border-radius: 14px;
     padding: 26px;
 }
 
-.card h3{
+.card h3 {
     font-size: 1.12rem;
 }
 
-.card p{
+.card p {
     color: var(--muted);
     margin: 0;
 }
 
-.wrap .reveal{
+.wrap .reveal {
     padding-top: 50px;
+}
+
+/* sumário com <details> (abre e fecha sem JavaScript) */
+details {
+    border-bottom: 1px solid var(--line);
+    padding: 16px 0
+}
+
+summary {
+    cursor: pointer;
+    font-weight: 700;
+    list-style: none
+}
+
+summary::after {
+    content: "+";
+    float: right;
+    color: var(--moss)
+}
+
+details[open] summary::after {
+    content: "–"
+}
+
+details p {
+    margin: 10px 0 0;
+    color: var(--muted)
 }
