@@ -1,7 +1,7 @@
 .reveal {
     opacity: 100;
-    transform: translateY(24px);
-    transition: opacity .7s, transform .7s;
+    transform: translateY(32px);
+    transition: opacity 1s, transform 1s;
 }
 
 .reveal .in {
