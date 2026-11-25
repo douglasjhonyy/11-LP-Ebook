@@ -5,14 +5,14 @@ Landing page de alta conversão para a venda de um ebook de programação web, f
 🔗 Demo: [adicione aqui o link do GitHub Pages](https://douglasjhonyy.github.io/11-LP-Ebook/)
 
 Funcionalidades
-Layout responsivo (desktop e celular) com CSS Grid e Flexbox
-Livro 3D que gira conforme a rolagem da página
-Elementos que aparecem ao entrar na tela (IntersectionObserver)
-Duas opções de compra, com o plano recomendado em destaque
-Download do capítulo grátis gerado com JavaScript (Blob)
-Sumário e perguntas frequentes com "details", sem JavaScript
-Modo escuro automático, usando variáveis CSS
-Respeita prefers-reduced-motion para quem desativa animações no sistema
+- Layout responsivo (desktop e celular) com CSS Grid e Flexbox
+- Livro 3D que gira conforme a rolagem da página
+- Elementos que aparecem ao entrar na tela (IntersectionObserver)
+- Duas opções de compra, com o plano recomendado em destaque
+- Download do capítulo grátis gerado com JavaScript (Blob)
+- Sumário e perguntas frequentes com "details", sem JavaScript
+- Modo escuro automático, usando variáveis CSS
+- Respeita prefers-reduced-motion para quem desativa animações no sistema
 
 Prévia da página
 
