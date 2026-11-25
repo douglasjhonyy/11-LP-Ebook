@@ -37,6 +37,8 @@
     position: relative;
     transform-style: preserve-3d;
     transform: rotateY(var(--ry)) rotateX(6deg);
+    text-align: center;
+    
 }
 
 .cover {
@@ -53,13 +55,14 @@
 }
 
 .cover h3 {
-    font-size: 1.6rem;
+    font-size: 2rem;
     margin: 0;
 }
 
 .cover span {
-    font-size: .85rem;
+    font-size: .95rem;
     opacity: .85;
+    font-style: italic;
 }
 
 .cover i {
