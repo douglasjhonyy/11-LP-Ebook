@@ -10,7 +10,7 @@ Livro 3D que gira conforme a rolagem da página
 Elementos que aparecem ao entrar na tela (IntersectionObserver)
 Duas opções de compra, com o plano recomendado em destaque
 Download do capítulo grátis gerado com JavaScript (Blob)
-Sumário e perguntas frequentes com "<details>", sem JavaScript
+Sumário e perguntas frequentes com "details", sem JavaScript
 Modo escuro automático, usando variáveis CSS
 Respeita prefers-reduced-motion para quem desativa animações no sistema
 
